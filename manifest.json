@@ -1,0 +1,25 @@
+{
+  "name": "Mouse Catch",
+  "short_name": "MouseCatch",
+  "description": "The classic cat & mouse chase game",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f0e8",
+  "theme_color": "#3a3226",
+  "categories": ["games"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><ellipse cx='24' cy='30' rx='12' ry='10' fill='%233a3226'/><circle cx='14' cy='18' r='5' fill='%233a3226'/><circle cx='34' cy='18' r='5' fill='%233a3226'/><circle cx='8' cy='26' r='4' fill='%233a3226'/><circle cx='40' cy='26' r='4' fill='%233a3226'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='10' fill='%23f5f0e8'/><ellipse cx='24' cy='30' rx='10' ry='8' fill='%233a3226'/><circle cx='16' cy='20' r='4' fill='%233a3226'/><circle cx='32' cy='20' r='4' fill='%233a3226'/><circle cx='10' cy='27' r='3' fill='%233a3226'/><circle cx='38' cy='27' r='3' fill='%233a3226'/></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
