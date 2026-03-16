@@ -1,0 +1,27 @@
+{
+  "name": "mouse-catch",
+  "version": "1.0.0",
+  "description": "The classic cat & mouse chase game",
+  "scripts": {
+    "serve": "npx serve .",
+    "icons": "node icons/generate-icons.js",
+    "build": "cp index.html sw.js manifest.json www/",
+    "cap:sync": "npm run build && npx cap sync",
+    "android": "npm run cap:sync && npx cap open android",
+    "ios": "npm run cap:sync && npx cap open ios"
+  },
+  "keywords": [
+    "game",
+    "html5",
+    "canvas",
+    "pwa"
+  ],
+  "author": "rktreddy",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/cli": "^8.2.0",
+    "@capacitor/core": "^8.2.0",
+    "@capacitor/ios": "^8.2.0"
+  }
+}
